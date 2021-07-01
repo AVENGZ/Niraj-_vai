@@ -175,6 +175,55 @@
     #client-list .client img {
       width: 100%; }
 
+.section5-btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+  border-bottom: 3px solid #00a2a0; }
+  .section5-btn .b-btn {
+    background: #00a2a0;
+    color: #fff;
+    padding: 18px 65px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 35px;
+    margin-bottom: 70px;
+    transition: all .4s linear; }
+    .section5-btn .b-btn:hover {
+      background: #1a404a; }
+
+.blog {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 3px solid #00a2a0;
+  margin-bottom: 50px; }
+  .blog__item {
+    width: 310px;
+    margin-bottom: 70px; }
+    .blog__item h3 {
+      display: inline-block;
+      color: #1a404a;
+      margin-top: 35px;
+      font-size: 24px; }
+    .blog__item img {
+      height: 185px;
+      width: 185px;
+      border-radius: 50%; }
+
+.blog-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #00a2a0;
+  margin-bottom: 70px; }
+
 * {
   margin: 0;
   padding: 0;
