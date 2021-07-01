@@ -1,0 +1,21 @@
+.section5 {
+    padding: 90px 0;
+}
+
+
+#client-list{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .client{
+        width: 200px;
+        padding: 10px;
+
+        img{
+            width: 100%;
+        }
+    }
+}

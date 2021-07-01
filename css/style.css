@@ -161,6 +161,20 @@
       background: #1a404a;
       color: #fff; }
 
+.section5 {
+  padding: 90px 0; }
+
+#client-list {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #client-list .client {
+    width: 200px;
+    padding: 10px; }
+    #client-list .client img {
+      width: 100%; }
+
 * {
   margin: 0;
   padding: 0;
