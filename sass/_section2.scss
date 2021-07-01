@@ -1,0 +1,99 @@
+.section2{
+    background-image: url(../img/stone.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: left -5% top 50%;
+    padding: 86px 0;
+    
+}
+
+.section2__content{
+    position: relative;
+
+
+    &__heading{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 48px;
+        color: $Secondary-color;
+    }
+
+    
+    .text{
+        width: 585px;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+       justify-content: center;
+       position: absolute;
+       margin-top: 100px;
+       right: 0;
+
+       .lead{
+           margin-top: 50px;
+           font-size: 20px;
+           margin-bottom: 35px;
+           color: $Secondary-color;
+       }
+
+      
+       
+    }
+}
+
+.section2-btn{
+    background-color: $Primary-color;
+    color: $White-color;
+    font-size: 20px;
+    display: inline-block;
+    width: 200px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    
+}
+
+
+/////section 3====
+
+
+.items{
+    display: flex;
+    padding: 1rem;
+
+
+    
+}
+
+.item{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+.item h1 {
+    margin-bottom: 40px;
+    background-color: #f5e9da;
+    line-height: 49px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: $Secondary-color;
+}
+.item h3{
+    color: $Secondary-color;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.item img {
+    margin-bottom: 37px;
+}
+
+.item p {
+    font-size: 18px;
+    color: $Secondary-color;
+}

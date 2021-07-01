@@ -1,0 +1,51 @@
+.home{
+    
+    height: 100vh;
+    background-image: url(../img/back2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home-content{
+
+    position: absolute;
+    width: 630px;
+    font-weight: 400;
+    margin-top: 100px;
+
+    h1{
+        font-size: 62px;
+        color: #1a404a;
+        text-transform: uppercase;
+        margin-bottom: 66px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.9;
+        color: $Secondary-color;
+        margin-bottom: 65px;
+    }
+
+    .home-btn{
+        background-color: $Primary-color;
+        color: $White-color;
+        line-height: 55px;
+        width: 317px;
+        border: none;
+        font-size: 30px;
+        font-weight: 400;
+        border-radius: 55px;
+        cursor: pointer;
+    }
+    h4{
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $Secondary-color;
+        margin-top: 24px;
+    }
+    .badge{
+        margin-top: 150px;
+    }
+}
