@@ -1,0 +1,98 @@
+.section6{
+    position: relative;
+}
+
+.contact{
+    padding-bottom: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    
+    position: relative;
+
+
+    &__left{
+        
+        width: 750px;
+        background: $Primary-color;
+        height: 600px;
+        
+        position: absolute;
+        margin-left:-200px;
+        
+        .lady{
+            position: absolute;
+            z-index: 22;
+            right: 0;
+            top: -100px;
+        }
+    }
+    &__right{
+       
+        position: absolute;
+        width: 585px;
+        
+        right: 0;
+
+
+        form {
+
+            position: relative;
+            h1{
+                font-size: 48px;
+                color: $Secondary-color;
+                margin-bottom: 20px;
+            }
+            p{
+                color: $Secondary-color;
+                margin-bottom: 30px;
+            }
+
+            input,select,option{
+                width: 100%;
+                margin-bottom: 45px;
+                line-height: 95px;
+                padding-left: 50px;
+                font-size: 18px;
+
+            }
+            input::focous{
+                border: none;
+                outline: none;
+            }
+
+            button{
+                background: $Primary-color;
+                padding: 10px 24px;
+                text-transform: uppercase;
+                color: $White-color;
+                font-size: 20px;
+                border: none;
+                border-radius: 30px;
+                position: absolute;
+                right: 0;
+                bottom: -30px;
+                cursor: pointer;
+                margin-top: 50px;
+                transition: all .4s;
+
+                &:hover {
+                    background: $Secondary-color;
+                }
+            }
+            
+        }
+    }
+}
+.select{
+    display: flex;
+    position: relative;
+
+
+    i{
+        position: absolute;
+        align-items: center;
+
+       bottom: 50%;
+        right: 0;
+    }
+}

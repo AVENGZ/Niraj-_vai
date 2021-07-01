@@ -224,6 +224,73 @@
   border-bottom: 3px solid #00a2a0;
   margin-bottom: 70px; }
 
+.section6 {
+  position: relative; }
+
+.contact {
+  padding-bottom: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+  .contact__left {
+    width: 750px;
+    background: #00a2a0;
+    height: 600px;
+    position: absolute;
+    margin-left: -200px; }
+    .contact__left .lady {
+      position: absolute;
+      z-index: 22;
+      right: 0;
+      top: -100px; }
+  .contact__right {
+    position: absolute;
+    width: 585px;
+    right: 0; }
+    .contact__right form {
+      position: relative; }
+      .contact__right form h1 {
+        font-size: 48px;
+        color: #1a404a;
+        margin-bottom: 20px; }
+      .contact__right form p {
+        color: #1a404a;
+        margin-bottom: 30px; }
+      .contact__right form input, .contact__right form select, .contact__right form option {
+        width: 100%;
+        margin-bottom: 45px;
+        line-height: 95px;
+        padding-left: 50px;
+        font-size: 18px; }
+      .contact__right form input::focous {
+        border: none;
+        outline: none; }
+      .contact__right form button {
+        background: #00a2a0;
+        padding: 10px 24px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 20px;
+        border: none;
+        border-radius: 30px;
+        position: absolute;
+        right: 0;
+        bottom: -30px;
+        cursor: pointer;
+        margin-top: 50px;
+        transition: all .4s; }
+        .contact__right form button:hover {
+          background: #1a404a; }
+
+.select {
+  display: flex;
+  position: relative; }
+  .select i {
+    position: absolute;
+    align-items: center;
+    bottom: 50%;
+    right: 0; }
+
 * {
   margin: 0;
   padding: 0;
